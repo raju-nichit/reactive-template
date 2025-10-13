@@ -1,0 +1,21 @@
+{
+  "workflowName": "CustomerOnboarding",
+  "steps": [
+    {
+      "name": "fetchCustomerData",
+      "type": "API_CALL",
+      "method": "GET",
+      "url": "http://localhost:8080/public/mock/user"
+    },
+    {
+      "name": "transformData",
+      "type": "BUSINESS_LOGIC"
+    },
+    {
+      "name": "saveCustomer",
+      "type": "SAVE",
+      "method": "POST",
+      "url": "http://localhost:8080/public/mock/save"
+    }
+  ]
+}
