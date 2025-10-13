@@ -10,3 +10,10 @@ Run:
 mvn clean package
 java -jar target/reactive-orchestration-0.0.1-SNAPSHOT.jar
 "# reactive-template" 
+
+{
+  "workflowName": "CustomerOnboarding",
+  "inputData": {
+    "customerId": "CUST-001"
+  }
+}
