@@ -17,3 +17,5 @@ java -jar target/reactive-orchestration-0.0.1-SNAPSHOT.jar
     "customerId": "CUST-001"
   }
 }
+
+logging.pattern.level=%5p [parentId=%X{parentCorrelationId}] [corrId=%X{correlationId}] - %m%n
