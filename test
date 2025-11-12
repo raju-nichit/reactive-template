@@ -1,0 +1,22 @@
+Subject: Reminder: Please Follow Proper Standards for Environment YAML Property Updates
+
+Hi Team,
+
+I’ve noticed that the property updates in the environment YAML files are not being done consistently across all environments and regions.
+
+Please note that our application has multiple environments (e.g., SIT, UAT, PROD) and each environment has multiple regions. Whenever a property update is made, it is important to:
+
+1. Apply the changes to all relevant environments, and
+
+
+2. Ensure consistency across all regions within those environments.
+
+
+
+Not following this standard is causing mismatches and deployment issues during testing and integration.
+
+Kindly make sure that moving forward, all property updates are done in every applicable environment and region to maintain consistency and avoid configuration issues.
+
+Please review your recent changes and correct them where necessary. Let me know if you face any challenges or need clarification.
+
+Thanks for your cooperation,
