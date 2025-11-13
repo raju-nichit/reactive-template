@@ -1,9 +1,7 @@
-Recently, we identified that Vamsi Krishna missed adding the eflow.reservation.url property, which caused the UAT1 deployment to fail. This has also impacted CreditCheck testing.
+Subject: Urgent: CreditCheck Application Down in SIT2 Due to CyberArk Password Issue
 
-Vamsi, please correct the missing property in UAT1, take the necessary approval, and proceed with the redeployment as soon as possible.
+Hi [Team/Name],
 
-Everyone, please review your recent changes and ensure that all environment YAML property updates are consistent across environments and regions to prevent similar issues.
+The CreditCheck application has been down in the SIT2 environment for the past 3–4 days. The application is currently not starting due to a CyberArk password issue.
 
-If you face any challenges or need clarification, please reach out.
-
-Thank you for your cooperation and attention to detail.
+Multiple users have been requesting an update on the ETA for resolution. Could you please look into this issue and provide an estimated timeline for the fix as soon as possible?
