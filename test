@@ -1,7 +1,1 @@
-Subject: Urgent: CreditCheck Application Down in SIT2 Due to CyberArk Password Issue
-
-Hi [Team/Name],
-
-The CreditCheck application has been down in the SIT2 environment for the past 3–4 days. The application is currently not starting due to a CyberArk password issue.
-
-Multiple users have been requesting an update on the ETA for resolution. Could you please look into this issue and provide an estimated timeline for the fix as soon as possible?
+We have implemented a workaround, and the application is currently running. However, due to some requirements, the application is not able to read the password from CyberArk. The NPS team is working on it and will provide an update once it is resolved
