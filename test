@@ -1,1 +1,11 @@
-We have implemented a workaround, and the application is currently running. However, due to some requirements, the application is not able to read the password from CyberArk. The NPS team is working on it and will provide an update once it is resolved
+Subject: Request for SIT1 Testing and Approval to Promote Changes to UAT1
+
+Hi QA Team,
+
+Please test the below-mentioned JIRA item(s) in the SIT1 environment. If the changes are working fine, kindly provide your approval so we can proceed with promoting the updates to UAT1.
+
+JIRA Reference: [Insert JIRA ID/Link]
+
+Please let me know if you need any further details.
+
+Thank you!
