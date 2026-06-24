@@ -1,3 +1,14 @@
+We have a Spring Boot application using Spring StateMachine and Spring WebFlux.
+
+Problem:
+- Used heap memory continuously grows in production.
+- Heap usage does not stabilize after Full GC.
+- We suspect a memory leak.
+
+Please analyze the application for potential memory leaks.
+
+Specifically check for:
+
 1. Spring StateMachine issues
    - StateMachine instances created per request
    - StateMachineFactory.getStateMachine() usage
